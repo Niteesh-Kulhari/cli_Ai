@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { PrismaClient } from "../../generated/prisma/client"; // Use your custom output path
+import { PrismaClient } from "../../generated/prisma/client.js"; // Use your custom output path
 import { PrismaPg } from "@prisma/adapter-pg";
 import pg from "pg";
 
